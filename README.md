@@ -50,7 +50,7 @@ Expected result would be
 
 ### To Run the Unit Test
 
-execute this command on  interminal
+execute this command on terminal
 
 ```
 vendor/bin/phpunit
