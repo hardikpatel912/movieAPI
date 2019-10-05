@@ -55,3 +55,17 @@ execute this command on terminal
 ```
 vendor/bin/phpunit
 ```
+
+### For calling API from terminal
+
+After starting local server execute below line from terminal with passing parameters
+
+```
+curl -i -X POST -H "Content-Type:application/json" http://127.0.0.1:8000/api/movie -d '{"genre":"animation","time":"12:00"}'
+```
+
+expected result will be 
+
+```
+[{"print_string":"Zootopia, Showing at 07 pm","rating":92},{"print_string":"Shaun The Sheep, Showing at 07 pm","rating":80}]
+```
