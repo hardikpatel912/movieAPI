@@ -20,7 +20,7 @@ Setting up in the local machine you need to execute below command.
 php artisan serve
 ```
 
-Try to execute below url in Client like Postman HTTP client
+Try to execute below url in Client like Postman HTTP client.
 
 ```
 http://localhost:8000/api/movie
